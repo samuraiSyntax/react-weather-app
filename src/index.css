@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;700&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  background-color: #faf9f6;
+  color: #343434;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+input,
+button {
+  font-weight: 600;
+  outline: none;
+  transition: all ease-in-out 0.2s;
+}
+
+button {
+  background: #343434 !important;
+  color: #faf9f6;
+  cursor: pointer;
+}
+button:hover {
+  background: #4f4f4f !important;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
